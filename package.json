@@ -1,0 +1,33 @@
+{
+  "name": "sms_alarm",
+  "version": "0.0.0",
+  "description": "Create alarms, timers, and reminders through SMS and email commands.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goterpsgo/sms_alarm.git"
+  },
+  "author": "goterpsgo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goterpsgo/sms_alarm/issues"
+  },
+  "homepage": "https://github.com/goterpsgo/sms_alarm#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "nodemailer": "^4.4.1",
+    "passport": "^0.4.0",
+    "sqlite3": "^3.1.13"
+  }
+}
